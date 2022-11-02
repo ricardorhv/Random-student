@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template: 1fr / 2fr 1fr;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+
+  background: hsl(264, 100%, 50%);
+  color: #fff;
+
+  font-family: system-ui;
+  font-weight: 600;
+  font-size: 1.2rem;
+
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+
+.studentName {
+  font-size: 1.2rem;
+
+  padding: 0.5rem 0.8rem;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 0.4rem;
+
+  background-color: hsl(142, 100%, 50%);
+  color: #fff;
+}
+
+.studentName::placeholder {
+  color: hsl(142, 6%, 79%);
+}
